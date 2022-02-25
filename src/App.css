@@ -1,0 +1,46 @@
+.error {
+  color: red;
+}
+.pre {
+  background-color: orange;
+}
+.productimg {
+  width: 200px;
+  height: 200px;
+}
+.producthead {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+}
+.productimgs {
+  width: 100px;
+  height: 100px;
+}
+#shopping {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#shopping td,
+#shopping th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#shopping tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#shopping tr:hover {
+  background-color: #ddd;
+}
+
+#shopping th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}

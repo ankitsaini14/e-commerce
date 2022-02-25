@@ -1,0 +1,44 @@
+[
+  {
+    "id": 123,
+    "picture": "../Images/shoes.jpg",
+    "name": "Shoes",
+    "size": { "6": 499, "7": 549, "8": 599 },
+    "price": 499
+  },
+  {
+    "id": 1234,
+    "picture": "../Images/poco.jpg",
+    "name": "Poco c31",
+    "size": { "black": 8000, "silver": 8500, "gold": 9000 },
+    "price": 8000
+  },
+  {
+    "id": 1235,
+    "picture": "../Images/shirt.jpg",
+    "name": "Shirt",
+    "size": { "M": 399, "xl": 449, "xxl": 499 },
+    "price": 399
+  },
+  {
+    "id": 1236,
+    "picture": "../Images/jeans.jpg",
+    "name": "Jeans",
+    "size": { "28": 699, "30": 749, "32": 799 },
+    "price": 699
+  },
+  {
+    "id": 1237,
+    "picture": "../Images/lower.jpg",
+    "name": "Lower",
+    "size": { "26": 299, "28": 349, "30": 399 },
+    "price": 299
+  },
+  {
+    "id": 1238,
+    "picture": "../Images/Tshirt.jpg",
+    "name": "T-shirt",
+    "size": { "xl": 199, "xxl": 249, "M": 299 },
+    "price": 199
+  }
+]
