@@ -21,6 +21,7 @@ export const buyProduct = (id, buyData) => {
     id,
     payload: {
       buyData: buyData,
+      // email
     },
   };
 };
@@ -29,5 +30,14 @@ export const deleteProduct = (id) => {
   return {
     type: "DELETE_PRODUCT",
     id,
+  };
+};
+
+export const userValue = (userdata) => {
+  return {
+    type: "USER_VALUE",
+    payload: {
+      userdata: userdata,
+    },
   };
 };

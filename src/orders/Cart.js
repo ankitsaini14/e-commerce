@@ -82,6 +82,7 @@ function Row({ elem, i }) {
                 quantity: quantity,
                 totalAmount: quantity * price,
               }
+              // localStorage.getItem("email")
             ),
             swal(
               elem.data.name,

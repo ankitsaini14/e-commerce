@@ -15,6 +15,8 @@ import { Formik, Form, ErrorMessage, Field } from "formik";
 import * as Yup from "yup";
 import TextError from "./TextError";
 import { useHistory } from "react-router-dom";
+import { userValue } from "../actions/actions";
+import { useDispatch } from "react-redux";
 
 function Copyright() {
   return (
@@ -52,6 +54,8 @@ const initialValues = {
   password: "",
 };
 export default function SignIn() {
+  const dispatch = useDispatch();
+
   const validationSchema = Yup.object({
     email: Yup.string().required("Email Required !"),
 
@@ -61,8 +65,10 @@ export default function SignIn() {
   const classes = useStyles();
 
   const onSubmit = function (values, { resetForm }) {
-    localStorage.setItem("UserSigninValues", JSON.stringify(values));
     resetForm();
+    localStorage.setItem("email", values.email);
+    dispatch(userValue(values));
+
     return history.push("/products");
   };
 
